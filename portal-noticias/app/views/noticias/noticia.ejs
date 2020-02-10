@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+	<html lang="pt-br">
+		<head>
+			<meta charset="utf-8"/>
+			<title>Notícia</title>
+		</head>
+	<body>
+		<section class="menu">
+		
+			<h2><a href="http://localhost:3000">home</a></h2>
+		
+			<h2><a href="http://localhost:3000/formulario_inclusao_noticia">Incluir notícia</a></h2>
+		
+			<h2><a href="http://localhost:3000/noticia">notícia</a></h2>
+		
+			<h2><a href="http://localhost:3000/noticias">noticias</a></h2>
+  
+		</section>
+		<h1>Notícia</h1>
+
+		<table>
+			<tr>
+				<td>ID</td>
+				<td>Título</td>
+				<td>Notícia</td>
+			</tr>
+
+		
+			<tr>
+				<td><%= noticia[0].id_noticia %></td>
+				<td><%= noticia[0].titulo %></td>
+				<td><%= noticia[0].noticia %></td>
+			
+			</tr>
+		</table>
+
+	</body>
+	<style>
+		.menu{
+			display: flex;
+			
+		}
+		
+		h2{
+			margin: 15px;
+		}
+		
+			</style>
+</html>
