@@ -9,4 +9,4 @@ Baixe as dependências com  : npm i
 
 
 
-Inicio o projeto com : nodemon app.js
+Inicie o projeto com : nodemon app.js
